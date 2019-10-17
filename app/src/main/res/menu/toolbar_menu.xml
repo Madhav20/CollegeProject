@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="mark all present"
+        android:id="@+id/sortName"
+        />
+    <item
+        android:title="sort by roll number"
+        android:id="@+id/sortRoll_num"
+        />
+
+</menu>

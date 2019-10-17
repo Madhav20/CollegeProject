@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_attendance"
+            android:title="@string/mark_attendance" />
+        <item
+            android:id="@+id/nav_upload_topics"
+            android:title="@string/upload_topics" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:title="@string/my_events" />
+
+        <item
+            android:id="@+id/feedback"
+            android:title="Feedback"/>
+        <item
+            android:id="@+id/view_attendance"
+            android:title="View Attendance"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:title="@string/setting"
+            />
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about"
+            />
+        <item
+            android:id="@+id/nav_logOut"
+            android:title="@string/log_out"
+            />
+    </group>
+</menu>
